@@ -144,6 +144,7 @@
     <Content Include="Scripts\Components\RequireJS\require.js" />
     <Content Include="Scripts\Components\RequireJS\text.js" />
     <Content Include="Scripts\Controllers\Root\Home\Index.js" />
+    <Content Include="Scripts\Controllers\Root\Shared\_Layout.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

@@ -1,1 +1,3 @@
-﻿alert("Hello World from the Home/Index controller");
+﻿define(['../Shared/_Layout'], function () {
+    alert('Hello World from Controllers/Home/Index');
+});
