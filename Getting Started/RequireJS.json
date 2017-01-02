@@ -4,5 +4,24 @@
   },
   "shim": {
     "bootstrap": { "deps": [ "jquery" ] }
+  },
+  "autoBundles": {
+    "layoutBundle": {
+      "outputPath": "Bundles/",
+      "compressionType": "standard",
+      "include": [
+        { "file": "Controllers/Root/Shared/_Layout" }
+      ]
+    },
+    "rootBundle": {
+      "outputPath": "Bundles/",
+      "compressionType": "standard",
+      "include": [
+        { "directory": "Controllers/Root" }
+      ],
+      "exclude": [
+        { "file": "Controllers/Root/Shared/_Layout" }
+      ]
+    }
   }
 }

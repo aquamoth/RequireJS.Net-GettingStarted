@@ -1,0 +1,26 @@
+{
+  "overrides": {
+    "layoutBundle": {
+      "paths": {
+        "respond": "bundles/layoutBundle",
+        "jquery-1.10.2": "bundles/layoutBundle",
+        "bootstrap": "bundles/layoutBundle",
+        "controllers/root/shared/_Layout": "bundles/layoutBundle"
+      },
+      "bundledScripts": [
+        "respond",
+        "jquery-1.10.2",
+        "bootstrap",
+        "controllers/root/shared/_Layout"
+      ]
+    },
+    "rootBundle": {
+      "paths": {
+        "controllers/root/home/Index": "bundles/rootBundle"
+      },
+      "bundledScripts": [
+        "controllers/root/home/Index"
+      ]
+    }
+  }
+}
