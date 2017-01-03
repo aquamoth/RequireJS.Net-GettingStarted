@@ -1,1 +1,1 @@
-﻿define("controllers/root/home/Index",["require","exports","../shared/_Layout"],function(b,a){alert("Hello World from TS Home/Index controller")});
+﻿define("controllers/root/home/Index",["require","exports","../../../components/Log","../shared/_Layout"],function(c,a,b){b.showMessage("Home/Index running")});

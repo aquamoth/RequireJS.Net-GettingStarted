@@ -1,3 +1,4 @@
 ﻿import 'bootstrap';
 import '../../../respond';
-alert('Hello World from TS Shared/_Layout');
+import * as log from '../../../Components/Log';
+log.showMessage('Shared/_Layout running');

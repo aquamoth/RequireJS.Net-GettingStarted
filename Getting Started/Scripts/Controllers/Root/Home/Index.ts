@@ -1,2 +1,3 @@
 ﻿import '../Shared/_Layout';
-alert('Hello World from TS Home/Index controller');
+import * as log from '../../../Components/Log';
+log.showMessage('Home/Index running');

@@ -1,5 +1,5 @@
-define(["require", "exports", '../Shared/_Layout'], function (require, exports) {
+define(["require", "exports", '../../../Components/Log', '../Shared/_Layout'], function (require, exports, log) {
     "use strict";
-    alert('Hello World from TS Home/Index controller');
+    log.showMessage('Home/Index running');
 });
 //# sourceMappingURL=Index.js.map

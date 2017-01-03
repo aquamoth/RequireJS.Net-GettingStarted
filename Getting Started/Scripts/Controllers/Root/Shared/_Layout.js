@@ -1,5 +1,5 @@
-define(["require", "exports", 'bootstrap', '../../../respond'], function (require, exports) {
+define(["require", "exports", '../../../Components/Log', 'bootstrap', '../../../respond'], function (require, exports, log) {
     "use strict";
-    alert('Hello World from TS Shared/_Layout');
+    log.showMessage('Shared/_Layout running');
 });
 //# sourceMappingURL=_Layout.js.map

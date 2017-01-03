@@ -2,12 +2,14 @@
   "overrides": {
     "layoutBundle": {
       "paths": {
+        "components/Log": "bundles/layoutBundle",
         "respond": "bundles/layoutBundle",
         "jquery-1.10.2": "bundles/layoutBundle",
         "bootstrap": "bundles/layoutBundle",
         "controllers/root/shared/_Layout": "bundles/layoutBundle"
       },
       "bundledScripts": [
+        "components/Log",
         "respond",
         "jquery-1.10.2",
         "bootstrap",

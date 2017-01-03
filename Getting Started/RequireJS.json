@@ -20,7 +20,8 @@
         { "directory": "Controllers/Root" }
       ],
       "exclude": [
-        { "file": "Controllers/Root/Shared/_Layout" }
+        { "file": "Controllers/Root/Shared/_Layout" },
+        { "file": "Components/Log" }
       ]
     }
   }
